@@ -16836,7 +16836,7 @@
 
   <script type="text/javascript">
     $('.hightlight').css('visibility','hidden');
-    $(document).on("mousedown",".county-area", function () {
+    $(document).on("click",".county-area", function () {
        var county = $(this).attr('id');
         if ( $(`.hightlight #${county}`).css('visibility') == 'hidden' )
           $(`.hightlight #${county}`).css('visibility','visible');
